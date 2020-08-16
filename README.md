@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">use-preset innocenzi/laravel-webpack-encore</h1>
+  <h1 align="center">Laravel Webpack Encore</h1>
   <p align="center">
     <a href="https://github.com/use-preset/use-preset/releases">
       <img alt="npx use-preset innocenzi/laravel-webpack-encore" src="https://img.shields.io/badge/use--preset-laravel--webpack--encore-blue?style=flat-square">
