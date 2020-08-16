@@ -15,7 +15,6 @@
   </p>
   <br />
   <pre align="center">npx use-preset innocenzi/laravel-webpack-encore</pre>
-  &nbsp;
 <p>
 
 # About
