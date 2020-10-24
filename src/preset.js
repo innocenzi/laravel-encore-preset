@@ -6,7 +6,7 @@ module.exports = Preset.make('Laravel Webpack Encore')
 		.title('Add innocenzi/laravel-encore')
 		.merge({
 			require: {
-				'innocenzi/laravel-encore': '^0.3'
+				'innocenzi/laravel-encore': '^0.4'
 			}
 		})
 		.chain()
@@ -15,7 +15,7 @@ module.exports = Preset.make('Laravel Webpack Encore')
 		.title('Update dependencies')
 		.merge({
 			devDependencies: {
-				'@symfony/webpack-encore': '^0.30',
+				'@symfony/webpack-encore': '^0.31',
 			},
 			scripts: {
 				'dev-server': 'encore dev-server',
@@ -24,7 +24,7 @@ module.exports = Preset.make('Laravel Webpack Encore')
 				build: 'encore production --progress',
 			},
 		})
-		.delete(['devDependencies.cross-env', 'devDependencies.laravel-mix'])
+		.delete(['devDependencies.laravel-mix'])
 		.chain()
 
 	.delete('webpack.mix.js')
