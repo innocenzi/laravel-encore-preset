@@ -2,7 +2,7 @@
 	"name": "laravel-webpack-encore",
 	"license": "MIT",
 	"preset": "src/preset.js",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": "true",
 	"devDependencies": {
 		"standard-version": "^8.0.2",
