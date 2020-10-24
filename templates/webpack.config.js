@@ -25,12 +25,15 @@ Encore
 
 	/*
 	|--------------------------------------------------------------------------
-	| Enable PostCSS
+	| Loaders
 	|--------------------------------------------------------------------------
-	| You'll need to add postcss-loader to your package.json,
-	| and to create a postcss.config.js file.
+	| These option require their respective loaders.
+	| Uncommenting a line and running Encore will display the command
+	| to run for installing its loader.
 	*/
+	// .enableVueLoader(() => {}, { runtimeCompilerBuild: false })
 	// .enablePostCssLoader()
+	// .enableTypeScriptLoader()
 
 	/*
 	|--------------------------------------------------------------------------
