@@ -10,7 +10,10 @@ Encore
 	| Define your entries
 	|--------------------------------------------------------------------------
 	*/
-	.addEntry('app', './resources/js/app.js')
+	.addEntry('app', [
+		'./resources/js/app.js',
+		'./resources/css/app.css'
+	])
 
 	/*
 	|--------------------------------------------------------------------------
