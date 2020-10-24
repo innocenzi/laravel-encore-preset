@@ -12,7 +12,7 @@ Encore
 	*/
 	.addEntry('app', [
 		'./resources/js/app.js',
-		'./resources/css/app.css'
+		// './resources/css/app.css'
 	])
 
 	/*
